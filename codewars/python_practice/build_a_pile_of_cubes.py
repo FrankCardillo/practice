@@ -19,17 +19,12 @@
 # if we cannot find such an n or we can't calculate it, then we return -1
 # what are the conditions that will prevent such an n from existing??
 
-import math
-
-def cube_root(x):
-    x = abs(x)
-    return int(math.pow(x, (1/3.0)))
-
 def find_nb(m):
-    num_cubes = 0
-    sum_of_cubed_cubes = m - 1
-    working_total = 0
-    while working_total < sum_of_cubed_cubes:
-        if blah:
-            working_total += ?????
-    return num_cubes
+   n = 1
+   volume = 0
+   while volume < m:
+       volume += n**3
+       if volume == m:
+           return n
+       n += 1
+   return -1
