@@ -1,0 +1,2 @@
+def find_all_pairs_of_nums_whose_sum_equals_given_num(array, given_num)
+end
