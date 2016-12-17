@@ -28,9 +28,9 @@
 void Koan03_further_types::the_truth_has_a_name()
 {
   bool wrong = false;
-  ASSERT( wrong );
+  ASSERT( !wrong );
   bool truth = true;
-  ASSERT( !truth );
+  ASSERT( truth );
 }
 
 
