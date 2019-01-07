@@ -13,6 +13,6 @@ def solution(a)
       return index
     end
   end
-  
+
   return -1
 end
